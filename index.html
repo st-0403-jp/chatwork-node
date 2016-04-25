@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="ja">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>チャットワークAPI</title>
+<link rel="stylesheet" href="">
+<script type="text/javascript" src="js/js-static/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/js-static/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/render.js"></script>
+</head>
+<body>
+<div id="container">
+<h1>テスト</h1>
+<form id="apiForm" action="http://10.17.208.153:3000/" method="post">
+  <input type="text" name="name" size="15" maxlength="20" placeholder="例：田中暁" style="border: 1px solid #ccc; margin-top: 20px;">
+  <input type="submit" name="decide" value="決定する" style="display: block;margin-top: 20px;">
+</form>
+<!-- <button class="btn">決定</button> -->
+</div>
+
+<script type="text/javascript" src="js/viewmodel.js"></script>
+</body>
+</html>
