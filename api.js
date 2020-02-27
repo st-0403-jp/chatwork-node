@@ -11,7 +11,7 @@ module.exports = (function () {
 
   var method = {};
 
-  var apiToken = '047e837879226a69effa390d296712ae';
+  var apiToken = ''; // APIトークン
   var apiBase = 'https://api.chatwork.com/v1';
 
   var options = {
@@ -37,18 +37,6 @@ module.exports = (function () {
 
   // APIにGETリクエストする
   method.reqGET = function (reqData) {
-    /*
-    var apiToken = '047e837879226a69effa390d296712ae';
-    var apiBase = 'https://api.chatwork.com/v1';
-
-    var options = {
-        url: apiBase,
-        headers: {
-            'X-ChatWorkToken': apiToken
-        },
-        json: true
-    };
-    */
 
     //リクエストデータをセット
     this.init(reqData);
